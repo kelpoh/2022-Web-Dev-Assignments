@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bulma Page Copy</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 </head>
 
 <body>
@@ -86,6 +87,9 @@
     <div class="section">
         <div class="container">
             <div class="columns">
+
+                <!-- *** start of first left-hand side column *** -->
+
                 <div class="column is-one-quarter">
                     <div class="card">
                         <header class="card-header">
@@ -113,12 +117,59 @@
                         </footer>
                     </div>
                 </div>
-            </div>
-            <div class="column">
-                Second column
-            </div>
-            <div class="column">
-                Third column
+
+                <!-- *** start of middle column *** -->
+
+                <div class="column is-half">
+                    <article class="panel">
+                        <div class="tabs is-boxed">
+                            <ul>
+                                <li class="is-active">
+                                    <a>
+                                        <span class="icon is-small"><i class="fas fa-image"
+                                                aria-hidden="true"></i></span>
+                                        <span>Current</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <span class="icon is-small"><i class="fas fa-music"
+                                                aria-hidden="true"></i></span>
+                                        <span>Completed</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <span class="icon is-small"><i class="fas fa-film"
+                                                aria-hidden="true"></i></span>
+                                        <span>Upcoming</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a>
+                                        <span class="icon is-small"><i class="far fa-file-alt"
+                                                aria-hidden="true"></i></span>
+                                        <span>All</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <label class="panel-block">
+                            <input type="checkbox">
+                            remember me
+                        </label>
+                        <div class="panel-block">
+                            <button class="button is-link is-outlined is-fullwidth">
+                                Reset all filters
+                            </button>
+                        </div>
+                        </nav>
+                </div>
+
+                <div class="column">
+                    Third column
+                </div>
+
             </div>
         </div>
     </div>
