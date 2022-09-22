@@ -12,7 +12,7 @@
 
 <body>
 
-    <!-- **** Bulma inserted navbar starts here **** -->
+    <!-- **** NAVBAR START **** -->
 
     <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
@@ -81,23 +81,24 @@
         </div>
     </nav>
 
-    <!-- *** Bulma navbar ends *** -->
+    <!-- **** NAVBAR END **** -->
 
-    <!-- *** Bulma columns inserted *** -->
+    <!-- **** COLUMNS START **** -->
+
     <div class="section">
         <div class="container">
             <div class="columns">
 
-                <!-- *** start of first left-hand side column *** -->
+                <!-- **** LEFT-HAND COLUMN START **** -->
 
                 <div class="column is-one-quarter">
                     <div class="card">
                         <header class="card-header">
-                            <p class="card-header-title">
-                                Bulma.io
+                            <p class="card-header-title has-text-primary-dark">
+                                This is a card component!
                             </p>
                             <button class="card-header-icon" aria-label="more options">
-                                <span class="icon">
+                                <span class="icon has-text-primary-dark">
                                     <i class="fas fa-angle-down" aria-hidden="true"></i>
                                 </span>
                             </button>
@@ -118,63 +119,127 @@
                     </div>
                 </div>
 
-                <!-- *** start of middle column *** -->
+                <!-- **** LEFT COLUMN END ****-->
+
+                <!-- **** MIDDLE COLUMN START **** -->
 
                 <div class="column is-half">
-                    <article class="panel">
+                    <article class="panel is-primary">
+                        <p class="panel-heading has-text-white">
+                            This is a panel component!
+                        </p>
                         <div class="tabs is-boxed">
                             <ul>
                                 <li class="is-active">
                                     <a>
-                                        <span class="icon is-small"><i class="fas fa-image"
-                                                aria-hidden="true"></i></span>
-                                        <span>Current</span>
+                                        <span class="icon is-small has-text-primary-dark"><i
+                                                class="fas fa-clipboard-list" aria-hidden="true"></i></span>
+                                        <span class="has-text-primary-dark">Current</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a>
-                                        <span class="icon is-small"><i class="fas fa-music"
+                                        <span class="icon is-small has-text-success"><i class="fas fa-calendar-check"
                                                 aria-hidden="true"></i></span>
-                                        <span>Completed</span>
+                                        <span class="has-text-success">Completed</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a>
-                                        <span class="icon is-small"><i class="fas fa-film"
+                                        <span class="icon is-small has-text-info"><i class="fas fa-calendar-day"
                                                 aria-hidden="true"></i></span>
-                                        <span>Upcoming</span>
+                                        <span class="has-text-info">Upcoming</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a>
-                                        <span class="icon is-small"><i class="far fa-file-alt"
+                                        <span class="icon is-small has-text-warning"><i class="fas fa-calendar-days"
                                                 aria-hidden="true"></i></span>
-                                        <span>All</span>
+                                        <span class="has-text-warning">All</span>
                                     </a>
                                 </li>
                             </ul>
                         </div>
+                        <div class="panel-block">
+                            <p class="control has-icons-left">
+                                <input class="input" type="text" placeholder="New task">
+                                <span class="icon is-left">
+                                    <i class="fas fa-calendar-plus" aria-hidden="true"></i>
+                                </span>
+                        </div>
                         <label class="panel-block">
                             <input type="checkbox">
-                            remember me
+                            Make Bulma great again
                         </label>
-                        <div class="panel-block">
-                            <button class="button is-link is-outlined is-fullwidth">
-                                Reset all filters
-                            </button>
-                        </div>
+                        <label class="panel-block">
+                            <input type="checkbox">
+                            Add some more features
+                        </label>
+                        <label class="panel-block">
+                            <input type="checkbox">
+                            Make a GitHub account
+                        </label>
+                        <label class="panel-block">
+                            <input type="checkbox">
+                            Learn how to use GitHub
+                        </label>
+                        <label class="panel-block">
+                            <input type="checkbox">
+                            Add a .gitignore file
+                        </label>
                         </nav>
                 </div>
 
+                <!-- **** MIDDLE COLUMN END****-->
+
+                <!-- **** RIGHT COLUMN START **** -->
+
                 <div class="column">
-                    Third column
+                    <aside class="menu">
+                        <p class="menu-label">
+                            General
+                        </p>
+                        <ul class="menu-list">
+                            <li><a>Dashboard</a></li>
+                            <li><a>Customers</a></li>
+                        </ul>
+                        <p class="menu-label">
+                            Administration
+                        </p>
+                        <ul class="menu-list">
+                            <li><a>Team Settings</a></li>
+                            <li>
+                                <a class="is-active">Manage Your Team</a>
+                                <ul>
+                                    <li><a>Members</a></li>
+                                    <li><a>Plugins</a></li>
+                                    <li><a>Add a member</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Invitations</a></li>
+                            <li><a>Cloud Storage Environment Settings</a></li>
+                            <li><a>Authentication</a></li>
+                        </ul>
+                        <p class="menu-label">
+                            Transactions
+                        </p>
+                        <ul class="menu-list">
+                            <li><a>Payments</a></li>
+                            <li><a>Transfers</a></li>
+                            <li><a>Balance</a></li>
+                        </ul>
+                    </aside>
                 </div>
 
             </div>
         </div>
     </div>
 
-    <!-- *** Bulma columns ends *** -->
+    <!-- **** RIGHT COLUMN END****-->
+
+    <!-- **** COLUMNS END **** -->
+
+    <!-- *********** PAGE END ************ -->
 
 </body>
 
