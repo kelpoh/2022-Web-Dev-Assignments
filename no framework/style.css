@@ -12,6 +12,10 @@ h3 {
   font-size: 18px;
 }
 
+span {
+  font-weight: bold;
+}
+
 body {
   background-color: #fefae0;
 }
